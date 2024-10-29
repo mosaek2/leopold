@@ -1,8 +1,6 @@
 import "./ShoppingDetailTable.css";
 
 export default function ShoppingDetailTable({ preview, setPreview }) {
-
-
     const printPreviewList = preview?.map((pt, index) => {
         const fixedPrice = pt.price / pt.quantity;
 
@@ -16,7 +14,7 @@ export default function ShoppingDetailTable({ preview, setPreview }) {
                         <p className="sdt-font2">- {pt.category4}/{pt.category5}</p>
                     </div>
 
-                    <input className="sdt-quantity-input" type="number" defaultValue={1} min={1}
+                    <input className="sdt-quantity-input" type="number" min={1} value={pt.quantity}
                         onChange={(e) => {
                             const newPreview = preview?.map((pt, idx) => {
                                 if (idx === index) {
@@ -35,7 +33,7 @@ export default function ShoppingDetailTable({ preview, setPreview }) {
                         }} />
 
                     <button className="sdt-cancel-btn" onClick={() => {
-                        const newPreview = preview.filter((_, idx) => idx !== index);
+                        const newPreview = preview.filter((pt, idx) => idx !== index);
                         setPreview(newPreview);
                     }}>X</button>
 
