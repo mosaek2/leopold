@@ -1,0 +1,54 @@
+.OrderDetailTable {
+    width: 1103px;
+    height: 160px;
+    display: flex;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.odt-cover-box {
+    width: 135px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.odt-cover {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.odt-info-box {
+    width: 517px;
+    height: 160px;
+    display: flex;
+    padding-left: 30px;
+    justify-content: center;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.odt-quantity-box {
+    width: 70px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.odt-price-box {
+    width: 120px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.odt-other-box {
+    width: 141px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

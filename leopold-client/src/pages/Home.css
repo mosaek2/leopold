@@ -1,0 +1,173 @@
+.best-prouduct {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+.yello-picture {
+    width: 820px;
+    height: 740px;
+    position: relative;
+    top: 85px;
+    left: 85px;
+}
+
+.yello-picture>img {
+    width: 100%;
+    height: 100%;
+}
+
+.best-prouduct-group {
+    width: 504px;
+    height: 172px;
+    text-align: center;
+    position: absolute;
+    top: 180px;
+    left: 1113px;
+}
+
+.home-title-boldtext {
+    font-family: GmarketBold;
+    font-size: 48px;
+    text-align: center;
+}
+
+.home-title-lighttext {
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    color: #4E4E4E;
+}
+
+
+.leopold-container {
+    width: 100%;
+    height: 650px;
+    position: relative;
+    margin-top: 149px;
+}
+
+.leopold-boldtext {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 35px;
+}
+
+.leopold-light {
+    font-size: 16px;
+    padding-top: 25px;
+    font-weight: 500;
+    color: #4E4E4E;
+}
+
+.leopold-group {
+    width: 1266px;
+    height: 221px;
+    margin: 60px auto;
+    display: flex;
+}
+
+.bluetooth-container {
+    width: 219px;
+    height: 212px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sound-container {
+    width: 285px;
+    height: 203px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.pbt-container {
+    width: 208px;
+    height: 212px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cherry-container {
+    width: 242px;
+    height: 221px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.click-block {
+    width: 180px;
+    height: 60px;
+    border-radius: 100px;
+    border: 1px solid #C6C6C6;
+    text-align: center;
+    line-height: 60px;
+    font-family: GmarketMedium;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+
+.classic {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin: 70px auto;
+}
+
+.classic>img {
+    width: 1903px;
+}
+
+.classic-text {
+    color: white;
+    font-size: 52px;
+    font-family: GmarketBold;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.service-container {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    margin: 210px auto;
+}
+
+.service-group {
+    width: 1456px;
+    height: 240px;
+    margin: 0 auto;
+    display: flex;
+    gap: 98px;
+}
+
+.service-box {
+    width: 420px;
+    height: 270px;
+    border: 1px solid #C8C8C8;
+    border-radius: 20px;
+    text-align: center;
+    margin: 90px auto;
+}
+
+.service-boldtext {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.service-light {
+    font-size: 16px;
+    padding-top: 10px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #8c8c8c;
+}

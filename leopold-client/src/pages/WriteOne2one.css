@@ -1,0 +1,89 @@
+.write-one2one-container {
+    width: 1340px;
+    margin: 0 auto;
+}
+
+.write-email-container {
+    width: 1340px;
+    height: 85px;
+    border-top: 1px solid #d9d9d9;
+}
+
+.email-top-container {
+    width: 628px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.email-title {
+    font-size: 15px;
+    width: 58px;
+}
+
+.email-text-box {
+    width: 205px;
+    height: 40px;
+    resize: none;
+    overflow: hidden;
+    outline: none;
+    font-size: 15px;
+    font-family: inherit;
+    line-height: 35px;
+    color: #424040;
+    background-color: transparent;
+    border: 1px solid #d9d9d9;
+    padding-left: 10px;
+}
+
+.select-box {
+    width: 130px;
+    height: 30px;
+    margin-left: 5px;
+    border: 1px solid #d9d9d9;
+    outline: none;
+    color: #424040;
+}
+
+.q-email {
+    font-size: 14px;
+    color: #676767;
+    margin: 5px 0px 0px 59px;
+}
+
+.q-check-container {
+    height: 20px;
+    display: flex;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.q-check {
+    width: 450px;
+    height: 20px;
+    font-size: 14px;
+    color: #676767;
+    margin: 6px 0px 0px 5px;
+    display: flex;
+    gap: 5px;
+}
+
+input[type="radio"] {
+    margin: 0;
+    vertical-align: middle;
+    appearance: none;
+    border-radius: 50%;
+    border: 1px solid #676767;
+    width: 13px;
+    height: 13px;
+}
+
+input[type="radio"]:checked {
+    background-color: #FF9900;
+    box-shadow: 0 0 0 1px #FF9900;
+}
+
+input[type="text"]option {
+    background-color: #FF9900;
+}

@@ -1,0 +1,109 @@
+.od-title {
+    font-size: 40px;
+    margin-top: 216px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.od {
+    margin: 128px auto 0px auto;
+    width: 1340px;
+    min-height: 1020px;
+    display: flex;
+    gap: 40px;
+}
+
+.od-main {
+    width: 1103px;
+    min-height: 1020px;
+}
+
+.od-title-1 {
+    width: 1103px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 24px;
+    border-bottom: 2px solid #888;
+}
+
+.OrderDetail tr {
+    display: flex;
+    color: #333;
+}
+
+.od-order-info-key {
+    width: 160px;
+    height: 65px;
+    border-bottom: 1px solid #eeeeee;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.od-order-info-value {
+    width: 943px;
+    height: 65px;
+    border-bottom: 1px solid #eeeeee;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.od-cancel-btn {
+    width: 71px;
+    height: 32px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d9d9d9;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.od-title-2 {
+    width: 1103px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 24px;
+    border-bottom: 2px solid #888;
+    margin-top: 100px;
+}
+
+.od-recent-title {
+    width: 1103px;
+    height: 81px;
+    background-color: #f5f5f5;
+    display: flex;
+    font-size: 16px;
+}
+
+.od-recent-title-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.od-total-box {
+    margin-top: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.od-intro-p1 {
+    font-size: 14px;
+}
+
+.od-intro-p2 {
+    font-size: 12px;
+    color: #707070;
+}
+
+.od-blank-1 {
+    width: 1103px;
+    height: 24px;
+    border-bottom: 1px solid #eeeeee;
+}

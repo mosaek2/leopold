@@ -1,0 +1,71 @@
+.asSub-move {
+    width: 1340px;
+    height: 88px;
+    padding: 28px 0;
+    cursor: pointer;
+    line-height: 32px;
+    display: flex;
+    font-family: 'Inter', 'Pretendard', sans-serif;
+    border-bottom: 1px solid #ededed;
+    color: #1a1a1a;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.asSub-move>span {
+    width: 80px;
+    height: 32px;
+    margin-right: 16px;
+    text-align: center;
+}
+
+.asSub-move>svg {
+    width: 84px;
+    height: 24px;
+    margin-left: auto;
+    padding: 0 30px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.asSub-arrow-up {
+    transform: rotate(180deg);
+}
+
+.asSub-has-sub-a {
+    background-color: #f5f5f5;
+    padding: 28px 0;
+    color: #888888;
+    line-height: 32px;
+    border-top: 1px solid #ededed;
+    max-height: 1000px;
+    transition: 0.5s;
+}
+
+.asSub-has-sub-b {
+    background-color: #f5f5f5;
+    color: #888888;
+    line-height: 32px;
+    border-top: 1px solid #ededed;
+    max-height: 0px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.asSub-wrap {
+    font-size: 14px;
+    display: flex;
+}
+
+.asSub-wrap>span {
+    display: block;
+    width: 80px;
+    margin-right: 16px;
+    text-align: center;
+}
+
+.asSub-wrap>div {
+    width: 1340px;
+    font-size: 14px;
+}

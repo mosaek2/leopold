@@ -1,0 +1,28 @@
+.cart-table {
+    width: 1340px;
+    margin: 0px auto;
+    font-size: 14px;
+}
+
+.cart-table-key-container {
+    width: 1340px;
+    height: 169px;
+    display: flex;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.cart-table-key-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.cart-table-small-btn {
+    width: 120px;
+    height: 32px;
+    background-color: transparent;
+    border: 1px solid #e9e9e9;
+    cursor: pointer;
+}

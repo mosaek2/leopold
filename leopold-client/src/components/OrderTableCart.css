@@ -1,0 +1,70 @@
+.otc {
+    display: flex;
+}
+
+.ot-cover-box {
+    width: 130px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ot-cover {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.ot-info {
+    width: 387px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 9px;
+    padding-left: 10px;
+}
+
+.ot-info-2 {
+    font-size: 13px;
+    color: #757575;
+}
+
+.ot-quantity {
+    width: 70px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.ot-price {
+    width: 120px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ot-order-status {
+    font-size: 16px;
+    color: #ff9900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 160px;
+}
+
+.ot-others {
+    width: 141px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}

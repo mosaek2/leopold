@@ -1,0 +1,110 @@
+.forgotPs-title {
+    margin-top: 216px;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.forgotPs-checkbox-wrapper {
+    margin: 102px auto 0px auto;
+    width: 400px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.forgotPs-id {
+    margin: 43px auto 0px auto;
+    width: 400px;
+    font-size: 13px;
+}
+
+.forgotPs-checkbox-wrapper>input {
+    width: 20px;
+    height: 20px;
+}
+
+.forgotPs-name {
+    margin: 24px auto 0px auto;
+    width: 400px;
+    font-size: 13px;
+}
+
+.forgotPs-input {
+    margin: 8px auto 0px auto;
+    display: block;
+    width: 400px;
+    height: 46px;
+    border: 1px solid #e6e6e6;
+    outline: none;
+    padding-left: 10px;
+}
+
+.forgotPs-phone {
+    margin: 24px auto 0px auto;
+    width: 400px;
+    font-size: 13px;
+}
+
+.forgotPs-phone-wrapper {
+    width: 400px;
+    margin: 8px auto 0px auto;
+    display: flex;
+}
+
+.forgotPs-phoneBox {
+    display: block;
+    width: 120px;
+    height: 46px;
+    border: 1px solid #e6e6e6;
+    outline: none;
+    padding-left: 10px;
+}
+
+.forgotPs-hyphen {
+    width: 20px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forgotPs-button {
+    width: 400px;
+    height: 56px;
+    background-color: #FE9900;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 0px auto;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type='radio']:checked {
+    background-color: #22d3ee;
+    border: 3px solid white;
+}
+
+.ForgotPs input[type='radio'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+
+.ForgotPs input[type='radio']:checked {
+    background-color: #FE9900;
+    border: 3px solid white;
+    box-shadow: 0 0 0 1.6px #FE9900;
+}
