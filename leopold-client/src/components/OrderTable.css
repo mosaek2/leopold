@@ -1,49 +1,49 @@
 .OrderTable {
-    width: 1103px;
-    border-bottom: 1px solid #dfdfdf;
-    display: flex;
+  width: 1103px;
+  border-bottom: 1px solid #dfdfdf;
+  display: flex;
 }
 
 .ot-num {
-    width: 135px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 135px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .ot-date {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .ot-uid {
-    font-size: 13px;
-    color: #888;
+  font-size: 13px;
+  color: #888;
 }
 
 .ot-num-order-view {
-    width: 130px;
-    height: 32px;
-    border: 1px solid #dfdfdf;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    margin-top: 8px;
-    font-size: 13px;
-    cursor: pointer;
+  width: 130px;
+  height: 32px;
+  border: 1px solid #dfdfdf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-top: 8px;
+  font-size: 13px;
+  cursor: pointer;
 }
 
 .ot-small-btn {
-    width: 62px;
-    height: 30px;
-    border: 1px solid #dfdfdf;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    font-size: 13px;
-    margin-top: 6px;
-    padding: 0px;
-    cursor: pointer;
+  width: 62px;
+  height: 30px;
+  border: 1px solid #dfdfdf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-size: 13px;
+  margin-top: 6px;
+  padding: 0px;
+  cursor: pointer;
 }

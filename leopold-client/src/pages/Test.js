@@ -1,7 +1,3 @@
 export default function Test() {
-    return (
-        <div className="test">
-
-        </div>
-    )
+  return <div className="test"></div>;
 }

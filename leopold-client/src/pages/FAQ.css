@@ -1,183 +1,183 @@
 /* 메뉴 바 */
 .faq-comm_title {
-    text-align: center;
-    margin: 208px 0 120px 0;
-    display: flex;
-    justify-content: center;
+  text-align: center;
+  margin: 208px 0 120px 0;
+  display: flex;
+  justify-content: center;
 }
 
 .faq-tab {
-    width: 1340px;
-    height: 120px;
-    display: flex;
+  width: 1340px;
+  height: 120px;
+  display: flex;
 }
 
 .faq-on {
-    width: 268px;
-    height: 120px;
+  width: 268px;
+  height: 120px;
 }
 
 .faq-img,
 .faq-txt {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .faq-txt {
-    font-size: 20px;
-    color: #1a1a1a;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: center;
-    font-family: 'Inter', 'Pretendard', 'sans-serif';
+  font-size: 20px;
+  color: #1a1a1a;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  font-family: "Inter", "Pretendard", "sans-serif";
 }
 
 /* 제목 */
 .faq-titleArea {
-    height: 92px;
-    margin: 0 0 80px 0;
-    text-align: center;
+  height: 92px;
+  margin: 0 0 80px 0;
+  text-align: center;
 }
 
-.faq-titleArea>h2 {
-    font-size: 40px;
-    color: #1a1a1a;
-    font-weight: 700;
-    line-height: 48px;
+.faq-titleArea > h2 {
+  font-size: 40px;
+  color: #1a1a1a;
+  font-weight: 700;
+  line-height: 48px;
 }
 
-.faq-titleArea>p {
-    font-family: 'Inter', 'Pretendard', 'sans-serif';
-    font-size: 18px;
-    font-weight: 400;
-    color: #888888;
-    height: 28px;
-    letter-spacing: -0.36px;
-    line-height: 28px;
-    margin-top: 16px;
+.faq-titleArea > p {
+  font-family: "Inter", "Pretendard", "sans-serif";
+  font-size: 18px;
+  font-weight: 400;
+  color: #888888;
+  height: 28px;
+  letter-spacing: -0.36px;
+  line-height: 28px;
+  margin-top: 16px;
 }
 
 /* 네비게이션 바 */
 #faq_navi {
-    width: 1340px;
-    height: 67px;
-    border-bottom: 1px solid #ededed;
-    margin: auto;
-    font-family: 'Inter', 'Pretendard', 'sans-serif';
-    font-weight: 400;
-    font-size: 18px;
-    color: #888888;
+  width: 1340px;
+  height: 67px;
+  border-bottom: 1px solid #ededed;
+  margin: auto;
+  font-family: "Inter", "Pretendard", "sans-serif";
+  font-weight: 400;
+  font-size: 18px;
+  color: #888888;
 }
 
 .faq-navi_cboth {
-    display: flex;
+  display: flex;
 }
 
-.faq-navi_cboth>li {
-    width: 335px;
-    height: 66px;
-    padding: 16px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    position: relative;
+.faq-navi_cboth > li {
+  width: 335px;
+  height: 66px;
+  padding: 16px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
 }
 
-.faq-navi_cboth>p {
-    display: flex;
-    align-items: center;
-    color: #ededed;
+.faq-navi_cboth > p {
+  display: flex;
+  align-items: center;
+  color: #ededed;
 }
 
 .faq-category-on {
-    color: #1a1a1a;
-    border-bottom: 2px solid #f90;
-    font-weight: 500;
+  color: #1a1a1a;
+  border-bottom: 2px solid #f90;
+  font-weight: 500;
 }
 
 /* Q&A */
 .faq-cboth_questions {
-    width: 1340px;
-    margin: auto;
+  width: 1340px;
+  margin: auto;
 }
 
 .faq-has-sub {
-    width: 1340px;
-    border-bottom: 1px solid #ededed;
-    color: #353535;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: left;
+  width: 1340px;
+  border-bottom: 1px solid #ededed;
+  color: #353535;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
 }
 
 /* 페이지 이동 화살표 */
 .faq-paging {
-    width: 1340px;
-    height: 40px;
-    margin: 40px auto;
-    text-align: center;
+  width: 1340px;
+  height: 40px;
+  margin: 40px auto;
+  text-align: center;
 }
 
 .faq-ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.faq-ul>li {
-    letter-spacing: -0.28px;
-    width: 40px;
-    height: 40px;
-    color: #939393;
-    font-size: 14px;
-    font-weight: 400;
-    margin: 0 8px;
-    line-height: 40px;
+.faq-ul > li {
+  letter-spacing: -0.28px;
+  width: 40px;
+  height: 40px;
+  color: #939393;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 8px;
+  line-height: 40px;
 }
 
 /* 찾기 메뉴 */
 .faq-board_search {
-    width: 1340px;
-    height: 40px;
-    text-align: center;
-    margin: 0 auto;
+  width: 1340px;
+  height: 40px;
+  text-align: center;
+  margin: 0 auto;
 }
 
-.faq-board_search>fieldset {
-    display: block;
-    padding: 30px 0;
-    color: #2e2e2e;
-    font-weight: 400;
+.faq-board_search > fieldset {
+  display: block;
+  padding: 30px 0;
+  color: #2e2e2e;
+  font-weight: 400;
 }
 
 #faq-search_date {
-    border: 1px solid #d5d5d5;
-    margin: 0 8px 0 22px;
-    padding: 0 25px 0 8px;
-    height: 40px;
+  border: 1px solid #d5d5d5;
+  margin: 0 8px 0 22px;
+  padding: 0 25px 0 8px;
+  height: 40px;
 }
 
 #faq-search_key {
-    border: 1px solid #d5d5d5;
-    margin: 0 8px 0 0;
-    padding: 0 25px 0 8px;
-    height: 40px;
+  border: 1px solid #d5d5d5;
+  margin: 0 8px 0 0;
+  padding: 0 25px 0 8px;
+  height: 40px;
 }
 
 #faq-search {
-    border: 1px solid #d5d5d5;
-    padding: 2px 4px;
-    height: 40px;
+  border: 1px solid #d5d5d5;
+  padding: 2px 4px;
+  height: 40px;
 }
 
 #faq-btn {
-    cursor: pointer;
-    font-size: 13px;
-    margin: 0 0 0 8px;
-    padding: 7px 27px;
-    border: 1px solid #bfbfbf;
-    height: 40px;
-    display: inline-flex;
-    align-items: center;
+  cursor: pointer;
+  font-size: 13px;
+  margin: 0 0 0 8px;
+  padding: 7px 27px;
+  border: 1px solid #bfbfbf;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
 }

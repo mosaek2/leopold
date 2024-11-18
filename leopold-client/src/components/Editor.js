@@ -32,16 +32,16 @@ import "froala-editor/js/third_party/font_awesome.min.js";
 // Render Froala Editor component.
 
 export default function EditorComponent() {
-    return (
-        <>
-            <div id="editor">
-                <FroalaEditorComponent
-                    tag="textarea"
-                // config={config}
-                // model={model}
-                // onModelChange={handleModelChange}
-                />
-            </div>
-        </>
-    );
+  return (
+    <>
+      <div id="editor">
+        <FroalaEditorComponent
+          tag="textarea"
+          // config={config}
+          // model={model}
+          // onModelChange={handleModelChange}
+        />
+      </div>
+    </>
+  );
 }

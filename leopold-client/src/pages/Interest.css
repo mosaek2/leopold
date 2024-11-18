@@ -1,88 +1,88 @@
 .interest-title {
-    font-size: 40px;
-    font-weight: bold;
-    margin-top: 216px;
-    display: flex;
-    justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 216px;
+  display: flex;
+  justify-content: center;
 }
 
 .interest {
-    margin: 128px auto 0px auto;
-    width: 1340px;
-    min-height: 1020px;
-    display: flex;
-    gap: 40px;
+  margin: 128px auto 0px auto;
+  width: 1340px;
+  min-height: 1020px;
+  display: flex;
+  gap: 40px;
 }
 
 .interest-main {
-    width: 1103px;
-    min-height: 1020px;
+  width: 1103px;
+  min-height: 1020px;
 }
 
 .interest-small-title {
-    width: 1103px;
-    height: 50px;
-    border-bottom: 2px solid #888;
-    font-size: 24px;
-    font-weight: bold;
+  width: 1103px;
+  height: 50px;
+  border-bottom: 2px solid #888;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .interest-th {
-    width: 1103px;
-    height: 81px;
-    background-color: #f5f5f5;
-    border-bottom: 1px solid #dfdfdf;
-    display: flex;
+  width: 1103px;
+  height: 81px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #dfdfdf;
+  display: flex;
 }
 
 .interest-th-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .interest-function-container {
-    display: flex;
-    gap: 7px;
-    margin-top: 70px;
-    align-items: center;
+  display: flex;
+  gap: 7px;
+  margin-top: 70px;
+  align-items: center;
 }
 
 .interest-function-container button {
-    padding: 11px 10px;
-    background-color: white;
-    border: 1px solid #ddd;
-    font-size: 13px;
-    color: #222;
-    cursor: pointer;
+  padding: 11px 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  font-size: 13px;
+  color: #222;
+  cursor: pointer;
 }
 
 .Interest .pagination {
-    display: flex;
-    margin: 42px auto 0px auto;
+  display: flex;
+  margin: 42px auto 0px auto;
 }
 
 .Interest .page-item {
-    margin: 0px 7px;
+  margin: 0px 7px;
 }
 
 .Interest .page-link {
-    padding: 8px 16px;
-    border: 1px solid #e2e2e2;
-    color: #818181;
-    cursor: pointer;
+  padding: 8px 16px;
+  border: 1px solid #e2e2e2;
+  color: #818181;
+  cursor: pointer;
 }
 
 .Interest .page-item.active .page-link {
-    background-color: #ececec;
-    color: #818181;
+  background-color: #ececec;
+  color: #818181;
 }
 
 .Interest .page-item:hover .page-link {
-    background-color: #ececec;
+  background-color: #ececec;
 }
 
 .pagination-wrapper {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }

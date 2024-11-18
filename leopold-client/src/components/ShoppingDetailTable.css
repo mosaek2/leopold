@@ -1,35 +1,35 @@
 .sdt-font1 {
-    color: #353535;
-    font-size: 12px;
-    font-weight: bold;
+  color: #353535;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .sdt-font2 {
-    color: #757575;
-    font-size: 12px;
+  color: #757575;
+  font-size: 12px;
 }
 
 .sdt-quantity-input {
-    width: 95px;
-    height: 30px;
-    border: 1px solid #dedfe2;
-    padding-left: 10px;
+  width: 95px;
+  height: 30px;
+  border: 1px solid #dedfe2;
+  padding-left: 10px;
 }
 
 .sdt-cancel-btn {
-    width: 30px;
-    height: 30px;
-    border: 1px solid #dedfe2;
-    background-color: white;
-    margin-left: 6px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #dedfe2;
+  background-color: white;
+  margin-left: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .sdt-price-text {
-    margin-left: auto;
-    font-weight: bold;
-    font-size: 13px;
+  margin-left: auto;
+  font-weight: bold;
+  font-size: 13px;
 }

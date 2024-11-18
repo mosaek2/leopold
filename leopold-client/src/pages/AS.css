@@ -1,209 +1,208 @@
 /* 메뉴 바 */
 .as-comm_title {
-    text-align: center;
-    margin: 208px 0 120px 0;
-    display: flex;
-    justify-content: center;
+  text-align: center;
+  margin: 208px 0 120px 0;
+  display: flex;
+  justify-content: center;
 }
 
 .as-tab {
-    width: 1340px;
-    height: 120px;
-    display: flex;
+  width: 1340px;
+  height: 120px;
+  display: flex;
 }
 
 .as-on {
-    width: 268px;
-    height: 120px;
+  width: 268px;
+  height: 120px;
 }
 
 .as-img,
 .as-txt {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .as-txt {
-    font-size: 20px;
-    color: #1a1a1a;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: center;
-    font-family: 'Inter', 'Pretendard', sans-serif;
+  font-size: 20px;
+  color: #1a1a1a;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  font-family: "Inter", "Pretendard", sans-serif;
 }
 
 /* 제목 */
 .as-titleArea {
-    height: 92px;
-    margin: 0 0 80px 0;
-    text-align: center;
+  height: 92px;
+  margin: 0 0 80px 0;
+  text-align: center;
 }
 
-.as-titleArea>h2 {
-    font-size: 40px;
-    color: #1a1a1a;
-    font-weight: 700;
-    line-height: 48px;
+.as-titleArea > h2 {
+  font-size: 40px;
+  color: #1a1a1a;
+  font-weight: 700;
+  line-height: 48px;
 }
 
-.as-titleArea>p {
-    font-family: 'Inter', 'Pretendard', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    color: #888888;
-    height: 28px;
-    letter-spacing: -0.36px;
-    line-height: 28px;
-    margin-top: 16px;
+.as-titleArea > p {
+  font-family: "Inter", "Pretendard", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #888888;
+  height: 28px;
+  letter-spacing: -0.36px;
+  line-height: 28px;
+  margin-top: 16px;
 }
 
 /* 네비게이션 바 */
 #as-navi {
-    width: 1340px;
-    height: 67px;
-    border-bottom: 1px solid #ededed;
-    margin: auto;
-    font-family: 'Inter', 'Pretendard', 'sans-serif';
-    font-weight: 400;
-    font-size: 18px;
-    color: #888888;
+  width: 1340px;
+  height: 67px;
+  border-bottom: 1px solid #ededed;
+  margin: auto;
+  font-family: "Inter", "Pretendard", "sans-serif";
+  font-weight: 400;
+  font-size: 18px;
+  color: #888888;
 }
 
 .as-navi_cboth {
-    display: flex;
+  display: flex;
 }
 
-.as-navi_cboth>li {
-    width: 670px;
-    height: 66px;
-    padding: 16px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    position: relative;
+.as-navi_cboth > li {
+  width: 670px;
+  height: 66px;
+  padding: 16px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
 }
 
-.as-navi_cboth>p {
-    display: flex;
-    align-items: center;
-    color: #ededed;
+.as-navi_cboth > p {
+  display: flex;
+  align-items: center;
+  color: #ededed;
 }
 
 .as-category-on {
-    color: #1a1a1a;
-    border-bottom: 2px solid #f90;
-    font-weight: 500;
+  color: #1a1a1a;
+  border-bottom: 2px solid #f90;
+  font-weight: 500;
 }
 
 /* Q&A */
 .as-cboth_questions {
-    width: 1340px;
-    height: auto;
-    margin: auto;
+  width: 1340px;
+  height: auto;
+  margin: auto;
 }
 
 .as-has-sub {
-    width: 1340px;
-    border-bottom: 1px solid #ededed;
-    color: #353535;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: left;
+  width: 1340px;
+  border-bottom: 1px solid #ededed;
+  color: #353535;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
 }
 
 /* 접수하기 버튼*/
 .as-btn {
-    width: 1340px;
-    height: 96px;
-    padding-top: 40px;
-    margin: auto;
-    text-align: center;
+  width: 1340px;
+  height: 96px;
+  padding-top: 40px;
+  margin: auto;
+  text-align: center;
 }
 
 .as-gRight {
-    font-size: 18px;
-    font-weight: 700;
-    color: #fff;
-    font-family: 'Inter', 'Pretendard', 'sans-serif';
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Inter", "Pretendard", "sans-serif";
 }
 
 .as-btnSubmit {
-    display: block;
-    margin: auto;
-    width: 160px;
-    height: 56px;
-    line-height: 56px;
-    border: 1px solid #f90;
-    background-color: #f90;
+  display: block;
+  margin: auto;
+  width: 160px;
+  height: 56px;
+  line-height: 56px;
+  border: 1px solid #f90;
+  background-color: #f90;
 }
 
 .as-btnSubmit:hover {
-    cursor: pointer;
-    color: #f90;
-    border: 1px solid #f90;
-    background-color: #fff;
+  cursor: pointer;
+  color: #f90;
+  border: 1px solid #f90;
+  background-color: #fff;
 }
 
 /* 스스로 해결방법 */
 .as-self {
-    width: 1340px;
-    height: 544px;
-    margin: 160px auto;
+  width: 1340px;
+  height: 544px;
+  margin: 160px auto;
 }
 
 .as-tit {
-    width: 1340px;
-    height: 48px;
-    margin-bottom: 80px;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 700;
-    font-family: 'inter', 'Pretendard', 'sans-serif';
-    color: #1a1a1a;
-    /* border: 1px dotted black; */
+  width: 1340px;
+  height: 48px;
+  margin-bottom: 80px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "inter", "Pretendard", "sans-serif";
+  color: #1a1a1a;
+  /* border: 1px dotted black; */
 }
 
 .as-wrap2 {
-    width: 1340px;
-    height: 416px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* border: 1px dotted black; */
-
+  width: 1340px;
+  height: 416px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px dotted black; */
 }
 
-.as-wrap2>div {
-    width: 416px;
-    height: 420px;
+.as-wrap2 > div {
+  width: 416px;
+  height: 420px;
 }
 
 .as-img2 {
-    width: 420px;
-    height: 320px;
-    margin-bottom: 24px;
+  width: 420px;
+  height: 320px;
+  margin-bottom: 24px;
 }
 
-.as-img2>img {
-    border-radius: 20px;
+.as-img2 > img {
+  border-radius: 20px;
 }
 
 .as-t01 {
-    display: block;
-    width: 420px;
-    height: 32px;
-    margin-bottom: 8px;
-    font-weight: 700;
-    font-size: 24px;
-    color: #1a1a1a;
+  display: block;
+  width: 420px;
+  height: 32px;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #1a1a1a;
 }
 
 .as-t02 {
-    display: block;
-    width: 420px;
-    height: 32px;
-    font-weight: 400;
-    color: #888888;
-    font-size: 16px;
+  display: block;
+  width: 420px;
+  height: 32px;
+  font-weight: 400;
+  color: #888888;
+  font-size: 16px;
 }

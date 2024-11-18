@@ -1,239 +1,238 @@
 .join-title {
-    font-size: 40px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    margin-top: 216px;
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-top: 216px;
 }
 
 .join-small-title-wrapper {
-    margin: 87px auto 0px auto;
-    width: 1340px;
-    height: 30px;
-    position: relative;
+  margin: 87px auto 0px auto;
+  width: 1340px;
+  height: 30px;
+  position: relative;
 }
 
 .join-small-title {
-    font-size: 20px;
-    font-weight: bold;
-    position: absolute;
-    left: 0px;
-    top: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  left: 0px;
+  top: 0px;
 }
 
 .join-must {
-    font-size: 12px;
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
+  font-size: 12px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
 }
 
 .join-red-star {
-    color: red;
+  color: red;
 }
 
 .join-info-wrapper {
-    margin: 10px auto 0px auto;
-    border-top: 1px solid black;
-    width: 1340px;
+  margin: 10px auto 0px auto;
+  border-top: 1px solid black;
+  width: 1340px;
 }
 
 .join-key {
-    width: 150px;
-    height: 73px;
-    background-color: #fafafa;
-    display: flex;
-    align-items: center;
-    padding-left: 18px;
-    font-size: 14px;
-    border-bottom: 1px solid #eeeeee;
+  width: 150px;
+  height: 73px;
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  padding-left: 18px;
+  font-size: 14px;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .join-value {
-    padding-left: 18px;
-    border-bottom: 1px solid #eeeeee;
-    width: 1190px;
+  padding-left: 18px;
+  border-bottom: 1px solid #eeeeee;
+  width: 1190px;
 }
 
 .join-value input {
-    height: 40px;
-    border: 1px solid #e9e9e9;
-    outline: none;
-    padding-left: 10px;
+  height: 40px;
+  border: 1px solid #e9e9e9;
+  outline: none;
+  padding-left: 10px;
 }
 
 .join-value input::placeholder {
-    color: #c3c4c3;
+  color: #c3c4c3;
 }
 
 .join-input1 {
-    width: 224px;
+  width: 224px;
 }
 
 .join-search-address {
-    width: 92px;
-    height: 40px;
-    border: 1px solid #e9e9e9;
-    font-size: 14px;
-    background-color: transparent;
-    cursor: pointer;
+  width: 92px;
+  height: 40px;
+  border: 1px solid #e9e9e9;
+  font-size: 14px;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .join-input2 {
-    width: 110px;
+  width: 110px;
 }
 
 .join-input3 {
-    width: 500px;
+  width: 500px;
 }
 
 .join-input4 {
-    width: 100px;
+  width: 100px;
 }
 
 .join-address {
-    height: 182px;
+  height: 182px;
 }
 
 .join-address-wrapper {
-    min-height: 182px;
-    display: flex;
-    gap: 16px;
-    flex-direction: column;
-    justify-content: center;
+  min-height: 182px;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .join-address-line {
-    display: flex;
-    gap: 10px;
-    align-items: center;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 .Join .DaumPostcode,
 .Modify .DaumPostcode {
-    width: 92px;
-    height: 40px;
-    border: 1px solid #e9e9e9;
-    font-size: 14px;
-    background-color: transparent;
-    cursor: pointer;
+  width: 92px;
+  height: 40px;
+  border: 1px solid #e9e9e9;
+  font-size: 14px;
+  background-color: transparent;
+  cursor: pointer;
 }
 
-
 .join-phoneWrapper {
-    display: flex;
+  display: flex;
 }
 
 .join-s-tr {
-    display: flex;
+  display: flex;
 }
 
 .join-hyphen {
-    width: 20px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 20px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .join-small-title2 {
-    font-size: 20px;
-    font-weight: bold;
-    width: 1340px;
-    margin: 80px auto 0px auto;
+  font-size: 20px;
+  font-weight: bold;
+  width: 1340px;
+  margin: 80px auto 0px auto;
 }
 
 .join-all-agree-box {
-    width: 1340px;
-    height: 77px;
-    margin: 16px auto 0px auto;
-    border-top: 1px solid black;
-    border-bottom: 1px solid #eeeeee;
-    display: flex;
-    align-items: center;
-    font-size: 16px;
-    padding-left: 16px;
+  width: 1340px;
+  height: 77px;
+  margin: 16px auto 0px auto;
+  border-top: 1px solid black;
+  border-bottom: 1px solid #eeeeee;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  padding-left: 16px;
 }
 
 .join-agree-wrapper {
-    margin: 0px auto;
-    width: 1340px;
-    display: flex;
-    flex-direction: column;
-    padding-left: 16px;
-    border-bottom: 1px solid #eeeeee;
-    padding-bottom: 32px;
+  margin: 0px auto;
+  width: 1340px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 32px;
 }
 
 .join-agree-box {
-    width: 1324px;
-    height: 20px;
-    margin-top: 32px;
-    display: flex;
-    align-items: center;
-    position: relative;
-    font-size: 14px;
-    color: #9a9a9a;
+  width: 1324px;
+  height: 20px;
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: 14px;
+  color: #9a9a9a;
 }
 
 .Join label {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .join-see-clause {
-    position: absolute;
-    right: 0px;
-    color: #6f6f6f;
-    text-decoration: underline;
-    cursor: pointer;
+  position: absolute;
+  right: 0px;
+  color: #6f6f6f;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .join-blank {
-    width: 24px;
+  width: 24px;
 }
 
 .join-finalJoin {
-    margin: 60px auto 0px auto;
-    width: 200px;
-    height: 56px;
-    background-color: #fe9900;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-    cursor: pointer;
+  margin: 60px auto 0px auto;
+  width: 200px;
+  height: 56px;
+  background-color: #fe9900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
 }
 
 .join-clause {
-    color: #747474;
-    font-size: 12px;
-    line-height: 1.5em;
-    border: 1px solid #e9e9e9;
-    margin-top: 18px;
-    padding-left: 40px;
-    width: 1324px;
-    height: 110px;
-    overflow-y: scroll;
-    transition-duration: 0.5s;
+  color: #747474;
+  font-size: 12px;
+  line-height: 1.5em;
+  border: 1px solid #e9e9e9;
+  margin-top: 18px;
+  padding-left: 40px;
+  width: 1324px;
+  height: 110px;
+  overflow-y: scroll;
+  transition-duration: 0.5s;
 }
 
 .join-clause-hide {
-    height: 0px;
-    overflow: hidden;
-    opacity: 0;
+  height: 0px;
+  overflow: hidden;
+  opacity: 0;
 }
 
 .join-finalModify {
-    width: 200px;
-    height: 56px;
-    background-color: #fe9900;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-    cursor: pointer;
+  width: 200px;
+  height: 56px;
+  background-color: #fe9900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
 }

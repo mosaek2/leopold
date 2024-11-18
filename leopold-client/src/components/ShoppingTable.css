@@ -1,16 +1,16 @@
 .ShoppingTable {
-    width: 319px;
-    height: 451px;
+  width: 319px;
+  height: 451px;
 }
 
 .st-cover {
-    width: 317px;
-    height: 317px;
-    border-radius: 12px;
-    transition-duration: 0.5s;
-    cursor: pointer;
+  width: 317px;
+  height: 317px;
+  border-radius: 12px;
+  transition-duration: 0.5s;
+  cursor: pointer;
 }
 
 .st-cover:hover {
-    transform: translate(0px, -4px);
+  transform: translate(0px, -4px);
 }

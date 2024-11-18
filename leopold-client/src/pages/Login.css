@@ -1,79 +1,79 @@
 .login-title {
-    margin-top: 216px;
-    font-size: 40px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
+  margin-top: 216px;
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
 }
 
 .login-key1 {
-    width: 400px;
-    margin: 85px auto 0px auto;
-    font-size: 13px;
+  width: 400px;
+  margin: 85px auto 0px auto;
+  font-size: 13px;
 }
 
 .login-input {
-    display: block;
-    margin: 13px auto 0px auto;
-    width: 400px;
-    height: 46px;
-    border: 1px solid #e6e6e6;
-    outline: none;
-    padding-left: 10px;
+  display: block;
+  margin: 13px auto 0px auto;
+  width: 400px;
+  height: 46px;
+  border: 1px solid #e6e6e6;
+  outline: none;
+  padding-left: 10px;
 }
 
 .login-key2 {
-    width: 400px;
-    margin: 23px auto 0px auto;
-    font-size: 13px;
+  width: 400px;
+  margin: 23px auto 0px auto;
+  font-size: 13px;
 }
 
 .login-forgot-wrapper {
-    width: 400px;
-    margin: 22px auto 0px auto;
-    font-size: 13px;
-    gap: 8px;
-    display: flex;
-    justify-content: end;
+  width: 400px;
+  margin: 22px auto 0px auto;
+  font-size: 13px;
+  gap: 8px;
+  display: flex;
+  justify-content: end;
 }
 
 .login-forgot-button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .login-button {
-    width: 400px;
-    height: 56px;
-    background-color: #FE9900;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px auto 0px auto;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
+  width: 400px;
+  height: 56px;
+  background-color: #fe9900;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto 0px auto;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
 }
 
 .login-not-member {
-    color: #9a9a9a;
-    width: 400px;
-    font-size: 13px;
-    margin: 44px auto 0px auto;
-    cursor: pointer;
+  color: #9a9a9a;
+  width: 400px;
+  font-size: 13px;
+  margin: 44px auto 0px auto;
+  cursor: pointer;
 }
 
 .login-join-button {
-    width: 400px;
-    height: 56px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 22px auto 0px auto;
-    border: 1px solid #e6e6e6;
-    background-color: transparent;
-    font-weight: bold;
-    cursor: pointer;
-    font-size: 16px;
+  width: 400px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 22px auto 0px auto;
+  border: 1px solid #e6e6e6;
+  background-color: transparent;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
 }

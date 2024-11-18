@@ -1,232 +1,232 @@
 .payment {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    width: 902px;
-    margin: 0px auto;
-    border-left: 1px solid #c5c5c5;
-    border-right: 1px solid #c5c5c5;
-    border-bottom: 1px solid #c5c5c5;
-    background-color: #e8e8e8;
-    margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 902px;
+  margin: 0px auto;
+  border-left: 1px solid #c5c5c5;
+  border-right: 1px solid #c5c5c5;
+  border-bottom: 1px solid #c5c5c5;
+  background-color: #e8e8e8;
+  margin-bottom: 100px;
 }
 
 .payment-recent-box {
-    width: 448px;
-    height: 52px;
-    border: 1px solid #c5c5c5;
-    background-color: #e8e8e8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+  width: 448px;
+  height: 52px;
+  border: 1px solid #c5c5c5;
+  background-color: #e8e8e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .payment-write-myself {
-    width: 452px;
-    height: 52px;
-    border-top: 1px solid #c5c5c5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+  width: 452px;
+  height: 52px;
+  border-top: 1px solid #c5c5c5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .payment-select-addr-sync {
-    display: flex;
-    gap: 32px;
-    align-items: center;
-    padding-left: 20px;
-    height: 50px;
-    width: 900px;
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  padding-left: 20px;
+  height: 50px;
+  width: 900px;
 }
 
 .payment-address-container {
-    width: 900px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    font-size: 15px;
+  width: 900px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 15px;
 }
 
 .payment-addr-line {
-    display: flex;
+  display: flex;
 }
 
 .payment-addr-key {
-    width: 82px;
-    height: 42px;
-    display: flex;
-    align-items: center;
+  width: 82px;
+  height: 42px;
+  display: flex;
+  align-items: center;
 }
 
 .payment-addr-input-1 {
-    width: 755px;
-    height: 42px;
-    border: 1px solid #c5c5c5;
-    outline: none;
-    padding-left: 10px;
+  width: 755px;
+  height: 42px;
+  border: 1px solid #c5c5c5;
+  outline: none;
+  padding-left: 10px;
 }
 
 .payment .DaumPostcode {
-    width: 80px;
-    height: 42px;
-    border: 1px solid #c5c5c5;
-    background-color: white;
-    margin-left: 10px;
-    cursor: pointer;
+  width: 80px;
+  height: 42px;
+  border: 1px solid #c5c5c5;
+  background-color: white;
+  margin-left: 10px;
+  cursor: pointer;
 }
 
 .payment-addr-input-2 {
-    width: 243px;
-    height: 42px;
-    border: 1px solid #c5c5c5;
-    outline: none;
-    padding-left: 10px;
+  width: 243px;
+  height: 42px;
+  border: 1px solid #c5c5c5;
+  outline: none;
+  padding-left: 10px;
 }
 
 .payment-addr-hyphen {
-    width: 13px;
-    height: 42;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 13px;
+  height: 42;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .payment-msg-wrapper {
-    width: 900px;
-    height: 78px;
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
+  width: 900px;
+  height: 78px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
 }
 
 .payment-msg-select {
-    width: 837px;
-    height: 42px;
-    padding-left: 20px;
-    font-size: 15px;
-    border: 1px solid #c5c5c5;
-    outline: none;
+  width: 837px;
+  height: 42px;
+  padding-left: 20px;
+  font-size: 15px;
+  border: 1px solid #c5c5c5;
+  outline: none;
 }
 
 .payment-msg-myself {
-    width: 837px;
-    margin-left: 20px;
-    padding-left: 20px;
-    height: 42px;
-    border: 1px solid #c5c5c5;
-    outline: none;
-    margin-bottom: 20px;
+  width: 837px;
+  margin-left: 20px;
+  padding-left: 20px;
+  height: 42px;
+  border: 1px solid #c5c5c5;
+  outline: none;
+  margin-bottom: 20px;
 }
 
 .payment-point-input {
-    width: 430px;
-    height: 42px;
-    border: 1px solid #c5c5c5;
-    outline: none;
-    padding-left: 10px;
+  width: 430px;
+  height: 42px;
+  border: 1px solid #c5c5c5;
+  outline: none;
+  padding-left: 10px;
 }
 
 .payment-point-btn {
-    width: 100px;
-    height: 42px;
-    border: none;
-    background-color: #3e3e3e;
-    color: white;
-    font-size: 13px;
-    cursor: pointer;
+  width: 100px;
+  height: 42px;
+  border: none;
+  background-color: #3e3e3e;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
 }
 
 .payment-point-wrapper {
-    height: 42px;
-    padding-left: 20px;
-    display: flex;
-    align-items: center;
+  height: 42px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .payment-info-row {
-    display: flex;
-    justify-content: space-between;
-    width: 864px;
-    height: 27px;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 864px;
+  height: 27px;
+  align-items: center;
 }
 
 .payment-info-value {
-    font-weight: bold;
-    color: #383838;
+  font-weight: bold;
+  color: #383838;
 }
 
 .payment-final-price-wrapper {
-    width: 900px;
-    height: 52px;
-    margin-top: 10px;
-    background-color: #F4F7FF;
-    font-size: 18px;
-    font-weight: bold;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 20px;
+  width: 900px;
+  height: 52px;
+  margin-top: 10px;
+  background-color: #f4f7ff;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
 }
 
 .payment-select-method-wrapper {
-    width: 900px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .payment-method-box-1 {
-    width: 866px;
-    height: 40px;
+  width: 866px;
+  height: 40px;
 }
 
 .payment-method-box-2 {
-    width: 866px;
-    height: 64px;
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-    border: 1px solid #C5C5C5;
-    border-bottom: none;
+  width: 866px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  border: 1px solid #c5c5c5;
+  border-bottom: none;
 }
 
 .payment-method-box-3 {
-    width: 866px;
-    height: 64px;
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-    border: 1px solid #3971FF;
+  width: 866px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  border: 1px solid #3971ff;
 }
 
 .payment-method-box-4 {
-    width: 866px;
-    border: 1px solid #c5c5c5;
-    background-color: #FAFAFD;
-    margin-top: 12px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 20px;
-    padding: 10px 0px;
+  width: 866px;
+  border: 1px solid #c5c5c5;
+  background-color: #fafafd;
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 10px 0px;
 }
 
 .payment-bank-key {
-    width: 94px;
-    height: 42px;
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
+  width: 94px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
 }
 
 .payment-bank-value {
-    width: 744px;
-    height: 42px;
-    border: 1px solid #c5c5c5;
-    padding-left: 20px;
+  width: 744px;
+  height: 42px;
+  border: 1px solid #c5c5c5;
+  padding-left: 20px;
 }

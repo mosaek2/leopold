@@ -1,37 +1,37 @@
 .qtm {
-    width: 1103px;
-    height: 88px;
-    display: flex;
-    font-size: 14px;
+  width: 1103px;
+  height: 88px;
+  display: flex;
+  font-size: 14px;
 }
 
 .qtm-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 88px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 88px;
 }
 
 .qtm-title {
-    width: 713px;
-    height: 88px;
-    padding-left: 32px;
-    display: flex;
-    align-items: center;
-    gap: 5px;
+  width: 713px;
+  height: 88px;
+  padding-left: 32px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .qtm-title-p {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .qtm-date {
-    width: 160px;
-    height: 88px;
-    color: #9a9a9a;
+  width: 160px;
+  height: 88px;
+  color: #9a9a9a;
 }
 
 .qtm-answer {
-    width: 160px;
-    height: 88px;
+  width: 160px;
+  height: 88px;
 }

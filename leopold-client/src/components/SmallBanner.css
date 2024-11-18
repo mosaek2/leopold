@@ -1,63 +1,63 @@
 @keyframes slide {
-    from {
-        transform: translateY(20px);
-    }
+  from {
+    transform: translateY(20px);
+  }
 
-    to {
-        transform: translateY(0px);
-    }
+  to {
+    transform: translateY(0px);
+  }
 }
 
 .small-banner {
-    position: relative;
+  position: relative;
 }
 
 .information-box {
-    width: 260px;
-    height: 110px;
-    background-color: rgba(255, 255, 255, 0);
-    display: none;
-    color: transparent;
-    position: absolute;
-    top: 150px;
-    left: 55px;
-    border-radius: 0 0 10px 10px;
-    z-index: 1;
+  width: 260px;
+  height: 110px;
+  background-color: rgba(255, 255, 255, 0);
+  display: none;
+  color: transparent;
+  position: absolute;
+  top: 150px;
+  left: 55px;
+  border-radius: 0 0 10px 10px;
+  z-index: 1;
 }
 
-.small-banner:hover>.information-box {
-    background-color: rgba(255, 255, 255, 0.7);
-    color: black;
-    display: block;
-    background-size: cover;
-    animation-name: slide;
-    animation-duration: 0.4s;
+.small-banner:hover > .information-box {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: black;
+  display: block;
+  background-size: cover;
+  animation-name: slide;
+  animation-duration: 0.4s;
 }
 
 .information-text {
-    position: absolute;
-    top: 25px;
-    left: 18px;
-    font-size: 15px;
-    font-weight: 400;
-    color: #585858;
+  position: absolute;
+  top: 25px;
+  left: 18px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #585858;
 }
 
 .information-price {
-    position: absolute;
-    top: 60px;
-    left: 18px;
-    font-size: 16px;
-    font-weight: bold;
+  position: absolute;
+  top: 60px;
+  left: 18px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .information-cart {
-    width: 32px;
-    height: 32px;
-    position: absolute;
-    top: 52px;
-    left: 210px;
-    background-image: url(./smallbanner_cart_icon.png);
-    background-size: cover;
-    cursor: pointer;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 52px;
+  left: 210px;
+  background-image: url(./smallbanner_cart_icon.png);
+  background-size: cover;
+  cursor: pointer;
 }

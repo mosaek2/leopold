@@ -34,45 +34,45 @@ import WriteOne2one from "./pages/WriteOne2one";
 import WriteReview from "./pages/WriteReview";
 
 export default function App() {
-    return (
-        <div className="App">
-            <MyContext>
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/notices" element={<Notice />} />
-                    <Route path="/notice/:uid" element={<NoticeDetail />} />
-                    <Route path="/downloads" element={<Download />} />
-                    <Route path="/download/:uid" element={<DownloadDetail />} />
-                    <Route path="/notice" element={<Notice />} />
-                    <Route path="/faq" element={<FAQ />} />
-                    <Route path="/as" element={<AS />} />
-                    <Route path="/asReception" element={<AsReception />} />
-                    <Route path="/review" element={<Review />} />
-                    <Route path="/review/notice" element={<ReviewNotice />} />
-                    <Route path="/review/:uid" element={<ReviewDetail />} />
-                    <Route path="/login" element={<Login />} />
-                    <Route path="/forgotId" element={<ForgotId />} />
-                    <Route path="/forgotPs" element={<ForgotPs />} />
-                    <Route path="/join" element={<Join />} />
-                    <Route path="/mypage" element={<MyPage />} />
-                    <Route path="/order" element={<Order />} />
-                    <Route path="/order/detail" element={<OrderDetail />} />
-                    <Route path="/shopping" element={<Shopping />} />
-                    <Route path="/shopping/detail" element={<ShoppingDetail />} />
-                    <Route path="/cart" element={<Cart />} />
-                    <Route path="/payment" element={<Payment />} />
-                    <Route path="/support" element={<Support />} />
-                    <Route path="/review/write" element={<WriteReview />} />
-                    <Route path="/one2one" element={<One2one />} />
-                    <Route path="/one2one/:uid" element={<One2OneDetail />} />
-                    <Route path="/one2one/write" element={<WriteOne2one />} />
-                    <Route path="/review/modify/:uid" element={<ReviewModify />} />
-                    <Route path="/test" element={<Test />} />
-                    <Route path="/complete" element={<Complete />} />
-                    <Route path="/modify" element={<Modify />} />
-                    <Route path="/interest" element={<Interest />} />
-                </Routes>
-            </MyContext>
-        </div>
-    );
+  return (
+    <div className="App">
+      <MyContext>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/notices" element={<Notice />} />
+          <Route path="/notice/:uid" element={<NoticeDetail />} />
+          <Route path="/downloads" element={<Download />} />
+          <Route path="/download/:uid" element={<DownloadDetail />} />
+          <Route path="/notice" element={<Notice />} />
+          <Route path="/faq" element={<FAQ />} />
+          <Route path="/as" element={<AS />} />
+          <Route path="/asReception" element={<AsReception />} />
+          <Route path="/review" element={<Review />} />
+          <Route path="/review/notice" element={<ReviewNotice />} />
+          <Route path="/review/:uid" element={<ReviewDetail />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/forgotId" element={<ForgotId />} />
+          <Route path="/forgotPs" element={<ForgotPs />} />
+          <Route path="/join" element={<Join />} />
+          <Route path="/mypage" element={<MyPage />} />
+          <Route path="/order" element={<Order />} />
+          <Route path="/order/detail" element={<OrderDetail />} />
+          <Route path="/shopping" element={<Shopping />} />
+          <Route path="/shopping/detail" element={<ShoppingDetail />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/payment" element={<Payment />} />
+          <Route path="/support" element={<Support />} />
+          <Route path="/review/write" element={<WriteReview />} />
+          <Route path="/one2one" element={<One2one />} />
+          <Route path="/one2one/:uid" element={<One2OneDetail />} />
+          <Route path="/one2one/write" element={<WriteOne2one />} />
+          <Route path="/review/modify/:uid" element={<ReviewModify />} />
+          <Route path="/test" element={<Test />} />
+          <Route path="/complete" element={<Complete />} />
+          <Route path="/modify" element={<Modify />} />
+          <Route path="/interest" element={<Interest />} />
+        </Routes>
+      </MyContext>
+    </div>
+  );
 }

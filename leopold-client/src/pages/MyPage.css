@@ -1,89 +1,89 @@
 .mypage {
-    margin: 208px auto 0px auto;
-    width: 1340px;
-    min-height: 1020px;
-    display: flex;
-    gap: 40px;
+  margin: 208px auto 0px auto;
+  width: 1340px;
+  min-height: 1020px;
+  display: flex;
+  gap: 40px;
 }
 
 .mypage-main {
-    width: 1103px;
-    min-height: 1020px;
+  width: 1103px;
+  min-height: 1020px;
 }
 
 .mypage-title1 {
-    width: 1103px;
-    height: 50px;
-    border-bottom: 2px solid #888888;
-    font-size: 24px;
-    font-weight: bold;
+  width: 1103px;
+  height: 50px;
+  border-bottom: 2px solid #888888;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .mypage-status {
-    margin-top: 60px;
-    width: 1103px;
-    height: 160px;
-    background-color: #f5f5f5;
-    display: flex;
-    gap: 52px;
-    justify-content: center;
+  margin-top: 60px;
+  width: 1103px;
+  height: 160px;
+  background-color: #f5f5f5;
+  display: flex;
+  gap: 52px;
+  justify-content: center;
 }
 
 .mypage-status-box1 {
-    width: 160px;
-    height: 160px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    justify-content: center;
-    align-items: center;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
 }
 
 .mypage-status-p1 {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .mypage-status-p2 {
-    font-size: 32px;
-    font-weight: bold;
+  font-size: 32px;
+  font-weight: bold;
 }
 
 .mypage-status-box2 {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .mypage-title2 {
-    width: 1103px;
-    height: 50px;
-    border-bottom: 2px solid #888888;
-    margin-top: 100px;
-    position: relative;
+  width: 1103px;
+  height: 50px;
+  border-bottom: 2px solid #888888;
+  margin-top: 100px;
+  position: relative;
 }
 
 .mypage-title2-p1 {
-    font-size: 24px;
-    font-weight: bold;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .mypage-title2-p2 {
-    font-size: 14px;
-    position: absolute;
-    bottom: 9px;
-    right: 0px;
-    cursor: pointer;
+  font-size: 14px;
+  position: absolute;
+  bottom: 9px;
+  right: 0px;
+  cursor: pointer;
 }
 
 .mypage-recent-title {
-    width: 1103px;
-    height: 81px;
-    background-color: #f5f5f5;
-    display: flex;
-    font-size: 16px;
+  width: 1103px;
+  height: 81px;
+  background-color: #f5f5f5;
+  display: flex;
+  font-size: 16px;
 }
 
 .mypage-recent-title-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
